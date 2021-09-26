@@ -1,5 +1,6 @@
 # Portfolio
 
+En la rama master hay dos projectos.
 
 - El projecto llamado Portfolio es mi primera pagina web desarrollada en JavaScript.
 
