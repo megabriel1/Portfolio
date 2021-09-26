@@ -1,0 +1,171 @@
+*,*:before,*:after{
+    box-sizing: border-box;
+  }
+
+.main-menu{
+margin-top: auto;
+display: flex;
+justify-content: space-evenly;
+}
+
+.main-menu_item{
+display: flex;
+}
+
+.main-menu_link{
+    color: orangered;    
+    position: relative;
+    top: 17px;    
+}
+
+.main-title{
+text-align: center;
+color: white;
+padding-bottom: 10px;
+font-size: 60px;
+}
+
+.contenedor-titulo{
+    width: 1900px;
+    height: 250px;
+    background-image: url(https://ichef.bbci.co.uk/news/640/cpsprodpb/DAE7/production/_113793065_gettyimages-625850102.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.main-title::first-letter{
+    color: orangered;
+    font-size: 2em;
+}
+
+.main-menu_link:active{
+    color: black;
+    background: lightblue;    
+}
+
+.parrafo1::selection{
+    color: red;
+    
+}
+.parrafo2::selection{
+    color: red;
+    
+}
+.parrafos{
+    padding-left: 5px;
+    border: 1px solid black;
+    position: relative;
+    margin-top: 100px;
+    left: 20px;
+    height: 120px;
+    width: 1880px;
+    background-color: white;
+    text-align: center;
+    font-size:large;
+    font-family: 'Linden Hill', serif;    
+}
+
+.container{
+    height: 500px;
+    width: 580px;    
+    position: relative;
+    top: 15px;
+    left: 440px;
+    text-align: center;  
+    background-size: contain;       
+}
+
+.images{
+    background-size: contain;       
+    height: 400px;
+    width: 980px; 
+    margin-top: 40px;   
+    margin-left: 200px;
+    filter: drop-shadow(10px 5px 10px black);
+}
+
+
+.select{
+    position: fixed;    
+    color: solid black;
+    right: 10px;
+    position: absolute;
+    top: 220px;
+    transform: scale(.9);
+}
+
+.categorias{
+    left: 1800px;
+    position: absolute;
+    top: 175px;
+    color: rgb(250, 76, 76);
+    
+}
+
+.boton{
+    
+    transform: scale(.9);
+}
+
+.gif{
+    background-image: url(https://www.gifsanimados.org/data/media/180/mono-imagen-animada-0286.gif);    
+    position: absolute;
+    background-size: contain;  
+    height: 150px;
+    width: 150px;
+    left: 270px;   
+    top: 480px;    
+    filter: drop-shadow(5px 5px 5px black);
+}
+
+.sobre{
+    background-image: url(https://cdn5.dibujos.net/dibujos/pintados/201032/235a59a02dc3d17188b460d455182414.png);
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: -1770px;
+    top: -720px;
+    height: 75px;
+    width: 85px;    
+    
+}
+
+.tortuga{
+    width: 230px;
+    height: 350px;
+    object-fit: cover;
+    object-position: right;
+    transition: object-position 10s;
+    right: 110px;
+    top: 400px;
+    position: absolute;
+    filter: drop-shadow(10px 10px 10px black);
+}
+.tortuga:hover{
+    object-position: left;
+}
+
+.indicacion{
+    position: absolute;
+    top: 410px;
+    left: 270px;
+    color: green;
+    font-size: 20px;    
+    width: 160px;
+    height: 70px;
+    text-align: center;    
+}
+
+.textos{
+    top: 8px;
+    position: relative;
+    margin-right: -400px;
+}
+
+.contacto{
+    position: relative;
+    right: -1770px;
+    top: -815px;
+    color: rgb(38, 0, 255);        
+}

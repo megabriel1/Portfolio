@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indice</title>
+    <script src="jquery-3.6.0.js"></script>    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="changeColor/estilos.css">
+    <style>        
+        #imagenAnimal, #imagenPlantae, #imagenFungi, 
+        #imagenMonera, #imagenProtista, #div1, #div2, #div3, 
+        #div4, #div5, .indicacion{
+            display: none;        
+        }
+        
+        </style>
+<link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Linden+Hill&display=swap" rel="stylesheet"> 
+</head>
+<body class="body">
+    
+    <div class="container2">
+        <label class="switch" >
+            <input class="toggle" type="checkbox">
+            <span class="slider round"></span>
+        </label>
+    </div>
+
+    
+
+    <div class="contenedor-titulo">
+        <h1 class="main-title">Reinos de la naturaleza</h1>
+    </div>    
+    
+    <div class="gif"></div>    
+    <p class="indicacion">Pasa el ratón sobre la imagen</p>
+    <nav>
+        <ul class="main-menu">
+            <li class="main-menu_item"><span id="textoAnimal"><a class="main-menu_link" href="#">Animal</a></span></li>
+            <li class="main-menu_item"><span id="textoPlantae"><a class="main-menu_link" href="#">Plantae</a></span></li>
+            <li class="main-menu_item"><span id="textoFungi"><a class="main-menu_link" href="#">Fungi</a></span></li>
+            <li class="main-menu_item"><span id="textoMonera"><a class="main-menu_link" href="#">Monera</a></span></li>
+            <li class="main-menu_item"><span id="textoProtista"><a class="main-menu_link" href="#">Protista</a></span></li>
+        </ul>
+    </nav>    
+    
+    <p class="categorias">Categorías</p>
+    <select class="select" onchange="metodo20()">    
+        <option id="ciencia">Ciencia</option>
+        <a class="ciencia2" href="../ciencia/ciencia.html"></a>
+        <option value="economía">Economía</option>
+        <option value="educación">Educación</option>
+        <option value="humanidades">Humanidades</option>
+        <option value="psicología">Psicología</option>
+        <option value="salud">Salud</option>
+</select>   
+
+<div class="container" >
+    <img class="images" src="https://larepublica.es/wp-content/uploads/2018/05/mascotas-y-animales-ex%C3%B3ticos.png" id="imagenAnimal">
+    <img class="images" src="https://www.definicionabc.com/wp-content/uploads/2015/05/Reino-Plantea2.jpg" id="imagenPlantae">
+    <img class="images" src="https://sites.google.com/site/portafoliodebiologiarcn/_/rsrc/1483927343888/bloque-3/reino-fungi/Fungi.jpg" id="imagenFungi">
+    <img class="images" src="https://i.pinimg.com/originals/d9/0f/17/d90f1735eb76cc110bec59f081132c35.jpg" id="imagenMonera">
+    <img class="images" src="https://ojo.pe/resizer/ncrMUlTw3Pzu_xAqcjPvDfFVuss=/580x330/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/KSYHD6367JGDFK3N6MDWQN5EFM.jpg" id="imagenProtista">
+    
+    
+    <p><div class="textos" id="div1">El reino animal se ha clasificado en dos grandes grupos: vertebrados e invertebrados.</div></p>
+    <p><div class="textos" id="div2">El reino plantae tiene como principal característica, la capacidad de realizar fotosíntesis.</div></p>
+    <p><div class="textos" id="div3">El reino fungi o reino de los hongos comparten características tanto del reino animalia como del reino plantae.</div></p>
+    <p><div class="textos" id="div4">Los organismos del reino monera son unicelulares y procariotas.</div></p>
+    <p><div class="textos" id="div5">El reino protista está formado por organismos eucariotas unicelulares y algas.</div></p>
+    
+</div>
+
+<div class="parrafos">
+    <p class="parrafo1">Esta clasificación fue propuesta en 2015 por el investigador Michael Ruggiero. Antes, se empleaba la clasificación creada por el ecólogo y botánico estadounidense Robert Whittaker, en la que se clasificaban cinco reinos de la naturaleza, incluyendo el reino Monera. Pero esta clasificación ya no se emplea.</p>
+    <p class="parrafo2"></p>Actualmente se sabe que los organismos que formaban parte del reino Monera en realidad tienen características diferentes entre sí y se reagruparon en los reinos Archaea y Bacteria.</p>
+</div>
+
+<img class="tortuga" src="https://arc-anglerfish-arc2-prod-lanacionpy.s3.amazonaws.com/public/6AG4U2WQHBHVFFFO2T2XWZMW3I.jpg">
+<div class="sobre"></div>
+<a class="contacto" href="../contacto/secundario.html">Contáctanos</a>
+
+<div class="bandera"></div>
+
+<script src="changeColor/estilos.css"></script>
+<script src="changeColor/storage.js"></script>
+<script src="mysql.js"></script>
+<script src="secundario.html"></script>
+<script src="externo.js"></script>
+<script src="styles.css"></script>    
+</body>
+</html>
+
